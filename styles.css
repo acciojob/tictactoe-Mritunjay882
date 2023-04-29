@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.player-names label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.board {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.board h1 {
+  margin-bottom: 20px;
+}
+
+.cell {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #333;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  font-size: 72px;
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cell:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.cell.x {
+  color: #f00;
+}
+
+.cell.o {
+  color: #00f;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 24px;
+}
